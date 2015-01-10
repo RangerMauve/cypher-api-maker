@@ -1,6 +1,6 @@
 {
   "name": "cypher-api-maker",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Makes a promise-based API from a directory with cql files",
   "main": "index.js",
   "scripts": {
@@ -25,13 +25,9 @@
   },
   "homepage": "https://github.com/RangerMauve/cypher-api-maker",
   "dependencies": {
-    "any-promise": "^0.1.0",
     "cypher-promise": "^1.0.0",
-    "dotty": "0.0.2",
-    "fs-promise": "^0.3.1",
-    "glob": "^4.3.2",
-    "par": "^0.3.0",
-    "path": "^0.11.14"
+    "glob-build": "^1.0.0",
+    "par": "^0.3.0"
   },
   "devDependencies": {
     "promise": "^6.0.1"
