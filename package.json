@@ -1,0 +1,39 @@
+{
+  "name": "cypher-api-maker",
+  "version": "1.0.0",
+  "description": "Makes a promise-based API from a directory with cql files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RangerMauve/cypher-api-maker.git"
+  },
+  "keywords": [
+    "cypher",
+    "query",
+    "api",
+    "graph",
+    "neo4j",
+    "promise"
+  ],
+  "author": "rangermauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/cypher-api-maker/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/cypher-api-maker",
+  "dependencies": {
+    "any-promise": "^0.1.0",
+    "cypher-promise": "^1.0.0",
+    "dotty": "0.0.2",
+    "fs-promise": "^0.3.1",
+    "glob": "^4.3.2",
+    "par": "^0.3.0",
+    "path": "^0.11.14"
+  },
+  "devDependencies": {
+    "promise": "^6.0.1"
+  }
+}
