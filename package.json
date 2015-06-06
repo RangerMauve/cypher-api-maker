@@ -1,6 +1,6 @@
 {
   "name": "cypher-api-maker",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Makes a promise-based API from a directory with cql files",
   "main": "index.js",
   "scripts": {
