@@ -1,6 +1,6 @@
 var par = require("par");
 var cypher = require("cypher-promise");
-var globBuild = require("glob-build");
+var globBuild = require("glob-build").build;
 
 module.exports = build_api;
 
@@ -10,7 +10,7 @@ function build_api(directory, cypher_connection) {
 }
 
 function make_query(cypher, query_string) {
-	return function(params) {
+	return function (params) {
 		return cypher.query(query_string, paramss);
 	}
 }
