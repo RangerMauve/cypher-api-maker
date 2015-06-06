@@ -11,6 +11,6 @@ function build_api(directory, cypher_connection) {
 
 function make_query(cypher, query_string) {
 	return function (params) {
-		return cypher.query(query_string, paramss);
+		return cypher.query(query_string, params);
 	}
 }
